@@ -55,7 +55,7 @@ console.log("_____________________");
 console.log("PROBLEM 5");
 
 for (let i = 0; i < 5; i++) {
-  console.log(10);
+  console.log(faveNum);
 }
 
 console.log("_____________________");
