@@ -51,3 +51,11 @@ console.log("_____________________");
 */
 
 //CODE HERE
+
+console.log("PROBLEM 5");
+
+for (let i = 0; i < 5; i++) {
+  console.log(10);
+}
+
+console.log("_____________________");
