@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="container">
+    <h2>Week 4 - Back End Assessment by J. Stewart</h2>
+    <section class ="c2">
+      <div>
+        <button id="complimentButton">Get a compliment</button>
+        <img id="complimentGirl"src="https://img.freepik.com/premium-vector/happy-cute-child-girl-cartoon-vector_39663-15.jpg?w=2000">
+      </div>
+      <div>
+        <button id="fortuneButton"> Get a fortune</button>
+        <img id="fortuneCookie"src="https://thumbs.dreamstime.com/b/cute-kawaii-fortune-cookie-isolated-vector-illustration-valentine-symbol-message-slip-day-july-th-japanese-pop-culture-190308121.jpg">
+      </div>
+      <div>
+        <button id="inspirationButton"> Get Inspirational Quote</button>
+        <img id="lightBulb"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVv1G1Wgu-TVUskoPaZgkus8wkzH52YlZFCA&usqp=CAU">
+      </div>
+      <div>
+        <div>
+          <button id="affirmationButton"> Click for Daily Affirmations</button>
+          <img id="stickyNote"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrt4XA5bXRPlTJVQOw1sIEttzjb3PBHViBTQ&usqp=CAU">
+        </div>
+        <div id="affirmationArea">
+        </div>
+      </div>
+    </section>
+    <section class="c3">
+      <div>
+        <button id="viewGoalsButton">View Goals</button>
+        <div id="goalsBox">
+          <ul id="goalList">
+
+          </ul>
+        </div>
+      </div>
+      <form id="form1">
+        <label> Enter Personal Goals here:</label>
+        <input type="text" id="goal">
+        <button id="AddgoalButton" type="submit">Add New Goal</button>
+      </form>
+      <form id="form2">
+        <label> Change Goal Status:</label>
+        <input type="text" placeholder="Enter ID Number"id="goalId">
+        <label for="status"> Change Goal Status:</label>
+        <select name="status" id="status">
+          <option value="Completed">Completed</option>
+          <option value="Not Completed">Not Completed</option>
+        </select>
+        <button id="changeGoalButton" type="submit">Submit</button>
+      </form>
+      <form id="form3">
+        <label> Delete Goal:</label>
+        <input type="text" placeholder="Enter ID Number"id="goalId2">
+        <button id="deleteGoalButton" type="submit">Submit</button>
+
+      </form>
+
+    </section>
+      
+   
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>

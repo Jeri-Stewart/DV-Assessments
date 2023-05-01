@@ -1,0 +1,159 @@
+/*Images for the buttons */
+#complimentGirl {
+    width: 5%;
+    height: 5%;
+    position: relative;
+    top: -15px;
+    left: -105px;
+    border-radius: 50%;
+}
+
+#fortuneCookie {
+    width: 5%;
+    height: 5%;
+    position: relative;
+    top:  30px;
+    left: -90px;
+    border-radius: 50%;
+}
+
+#stickyNote {
+    width: 6%;
+    height: 6%;
+    position: relative;
+    top: 90px;
+    left: -135px;
+    border-radius: 50%;
+}
+
+#lightBulb {
+    width: 6%;
+    height: 6%;
+    position: relative;
+    top: 55px;
+    left: -125px;
+    border-radius: 50%;
+}
+#complimentButton {
+    position: relative;
+    top: 20px;
+    border-color:#E86252;
+    border-width: 3px;
+    background: #EE2677;
+    border-radius: 10px;
+    color: #EEEBD0;
+    font-weight: bold;
+}
+#fortuneButton {
+    position: relative;
+    top: 50px;
+    border-color:#E86252;
+    border-width: 3px;
+    background: #EE2677;
+    border-radius: 10px;
+    color: #EEEBD0;
+    font-weight: bold;
+
+}
+
+#inspirationButton {
+    position: relative;
+    top: 80px;
+    left:  10px;
+    border-color:#E86252;
+    border-width: 3px;
+    background: #EE2677;
+    border-radius: 10px;
+    color: #EEEBD0;
+    font-weight: bold;
+
+}
+
+#affirmationButton {
+    position: relative;
+    top: 120px;
+    left: 10px;
+    border-color:#E86252;
+    border-width: 3px;
+    background: #EE2677;
+    border-radius: 10px;
+    color: #EEEBD0;
+    font-weight: bold;
+}
+
+
+#viewGoalsButton {
+    border-radius: 10px;
+    border-color:#E86252;
+    padding: 5px 15px;
+    font-weight: bold;
+    background: #EBB3A9;
+    color: #EE2677;
+    margin-left: -60px;
+    vertical-align: middle;
+}
+
+.c3{
+    position: relative;
+    top: 200px;
+}
+#goalList{
+    text-align: left;
+    color:#EE2677;
+}
+#affirmationArea {
+    position: relative;
+    top: 100px;
+    left: -30px;
+    color: #E86252
+}
+#goals {
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+}
+#goalsBox {
+border: 10px #EE2677;
+}
+div {
+    text-align: center;
+}
+h2{
+    color:#AC260B;
+    text-decoration: underline;
+    text-align: center;
+    position: relative;
+    left: -40px;
+}
+#goal{
+    background-color: #EBB3A9;
+    border: none;
+}
+#AddgoalButton {
+    color:#EEEBD0;
+    background-color: #E86252;
+    border: 5px #EEEBD0;
+}
+#changeGoalButton {
+    color:#EEEBD0;
+    background-color: #E86252;
+    border: 5px #EEEBD0;
+}
+#deleteGoalButton {
+    color:#EEEBD0;
+    background-color: #E86252;
+    border: 5px #EEEBD0;
+}
+
+#status{
+    background-color: #EBB3A9;
+    border: none;
+}
+#goalId{
+    background-color: #EBB3A9;
+    border: none;
+}
+#goalId2{
+    background-color: #EBB3A9;
+    border: none;
+}
